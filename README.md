@@ -1,10 +1,10 @@
 # RelayTrans
 
-> RelayTrans是一款中继传送软件，当你给远在天边的朋友传送文件时，全世界运行RelayTrans的朋友都帮你中继，让你轻松跑满带宽！
+> 下一代文件分享与下载软件
 
 ## TODO
 
-### 研究其他项目
+### 1 研究其他项目
 
 - [ ] [Syncthing](https://github.com/syncthing/syncthing)
 - [ ] [Transmission](https://github.com/transmission/transmission)
@@ -14,3 +14,21 @@
 - [ ] [bittorrent-protocol](https://github.com/webtorrent/bittorrent-protocol)
 - [ ] [opentracker](http://erdgeist.org/arts/software/opentracker/)
 - [ ] [ipfs](https://github.com/ipfs/ipfs)
+- [ ] [amule](https://github.com/amule-project/amule)
+- [ ] [emule](https://www.emule-project.net/)
+
+### 2 确立需求
+
+1. 文件中继：解决直连速度慢的问题，所有用户帮忙中继
+2. 文件下载：根据下载链接、种子、哈希值从全世界用户电脑上下载文件
+3. 文件上传：给全世界用户上传文件
+4. 安全：加密、匿名、混淆流量
+5. 去中心化：防止被版权机构和政府封禁
+6. 评分、评论与聊天：下载文件前就知道文件评价如何，值不值得下载
+7. 净化市场：如何让整体环境不被porn和劣质内容充斥
+8. 奖惩制度：奖励上传者，防止迅雷吸血，如何排队，参考emule，bt，pt，bitcoin
+
+### 3 设计原则
+
+1. Keep It Simple, Stupid
+2. 尽可能占用更少的资源（CPU，内存，带宽）
